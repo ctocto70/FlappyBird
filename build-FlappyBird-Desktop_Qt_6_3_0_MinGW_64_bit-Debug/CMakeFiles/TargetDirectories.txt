@@ -1,0 +1,5 @@
+C:/QtProjects/build-FlappyBird-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/FlappyBird.dir
+C:/QtProjects/build-FlappyBird-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/QtProjects/build-FlappyBird-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/QtProjects/build-FlappyBird-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/FlappyBird_autogen_timestamp_deps.dir
+C:/QtProjects/build-FlappyBird-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/FlappyBird_autogen.dir
