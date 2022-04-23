@@ -22,6 +22,7 @@ private:
     Ui::MainWindow *ui;
     const int window_width = 480; // "length"
     const int window_heigth = 600;
+    const int speed = 25;
     Tubes* tubes;
     QTimer *timer;
 private slots:

@@ -1,5 +1,5 @@
 #include "tubes.h"
-
+#include <QPixmap>
 
 
 Tubes::Tubes(const int& screen_width_, const int& screen_heigth_): screen_width(screen_width_),
