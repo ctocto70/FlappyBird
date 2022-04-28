@@ -18,6 +18,8 @@ set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
         mainwindow.h
+        bird.cpp
+        bird.h
         Tubes.cpp
         Tubes.h
         mainwindow.ui

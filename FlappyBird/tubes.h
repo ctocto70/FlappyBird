@@ -15,9 +15,12 @@ class Tubes
     const int screen_width; // "length"
     const int screen_heigth;
     const int step = 5;
+    QImage* image1;
+    QImage* image2;
     QVector<QPair<int, int>> tubes;
 public:
     Tubes(const int& screen_width_, const int& screen_heigth_);
+    ~Tubes();
     void update();
 public:
     void paint_(QPainter* painter);

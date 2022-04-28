@@ -3,7 +3,9 @@
 
 #include <QMainWindow>
 #include <QTimer>
+#include <QKeyEvent>
 #include "tubes.h"
+#include "bird.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -24,8 +26,13 @@ private:
     const int window_heigth = 600;
     const int speed = 25;
     Tubes* tubes;
+    Bird* bird;
     QTimer *timer;
+    QImage* image;
+    QRect* rect;
 private slots:
     void slotTimerAlarm();
+protected:
+    virtual void keyPressEvent(QKeyEvent *event);
 };
 #endif // MAINWINDOW_H
