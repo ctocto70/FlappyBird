@@ -73,6 +73,14 @@ build CMakeFiles/FlappyBird.dir/mainwindow.cpp.obj: CXX_COMPILER__FlappyBird_Deb
   OBJECT_DIR = CMakeFiles\FlappyBird.dir
   OBJECT_FILE_DIR = CMakeFiles\FlappyBird.dir
 
+build CMakeFiles/FlappyBird.dir/bird.cpp.obj: CXX_COMPILER__FlappyBird_Debug C$:/QtProjects/FlappyBird/bird.cpp || cmake_object_order_depends_target_FlappyBird
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\FlappyBird.dir\bird.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -IC:/QtProjects/build-FlappyBird-Desktop_Qt_6_3_0_MinGW_64_bit-Debug -IC:/QtProjects/FlappyBird -IC:/QtProjects/build-FlappyBird-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/FlappyBird_autogen/include -isystem C:/Qt/6.3.0/mingw_64/include/QtCore -isystem C:/Qt/6.3.0/mingw_64/include -isystem C:/Qt/6.3.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.3.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.3.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\FlappyBird.dir
+  OBJECT_FILE_DIR = CMakeFiles\FlappyBird.dir
+
 build CMakeFiles/FlappyBird.dir/tubes.cpp.obj: CXX_COMPILER__FlappyBird_Debug C$:/QtProjects/FlappyBird/tubes.cpp || cmake_object_order_depends_target_FlappyBird
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\FlappyBird.dir\tubes.cpp.obj.d
@@ -89,7 +97,7 @@ build CMakeFiles/FlappyBird.dir/tubes.cpp.obj: CXX_COMPILER__FlappyBird_Debug C$
 #############################################
 # Link the executable FlappyBird.exe
 
-build FlappyBird.exe: CXX_EXECUTABLE_LINKER__FlappyBird_Debug CMakeFiles/FlappyBird.dir/FlappyBird_autogen/mocs_compilation.cpp.obj CMakeFiles/FlappyBird.dir/main.cpp.obj CMakeFiles/FlappyBird.dir/mainwindow.cpp.obj CMakeFiles/FlappyBird.dir/tubes.cpp.obj | C$:/Qt/6.3.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.3.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.3.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.3.0/mingw_64/lib/libQt6EntryPoint.a || FlappyBird_autogen FlappyBird_autogen_timestamp_deps
+build FlappyBird.exe: CXX_EXECUTABLE_LINKER__FlappyBird_Debug CMakeFiles/FlappyBird.dir/FlappyBird_autogen/mocs_compilation.cpp.obj CMakeFiles/FlappyBird.dir/main.cpp.obj CMakeFiles/FlappyBird.dir/mainwindow.cpp.obj CMakeFiles/FlappyBird.dir/bird.cpp.obj CMakeFiles/FlappyBird.dir/tubes.cpp.obj | C$:/Qt/6.3.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.3.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.3.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.3.0/mingw_64/lib/libQt6EntryPoint.a || FlappyBird_autogen FlappyBird_autogen_timestamp_deps
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.3.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.3.0/mingw_64/lib/libQt6Gui.a  C:/Qt/6.3.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.3.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -150,7 +158,7 @@ build FlappyBird_autogen/timestamp FlappyBird_autogen/mocs_compilation.cpp | ${c
 #############################################
 # Phony custom command for CMakeFiles\FlappyBird_autogen_timestamp_deps
 
-build CMakeFiles/FlappyBird_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/FlappyBird_autogen_timestamp_deps: phony C$:/Qt/6.3.0/mingw_64/bin/Qt6Core.dll C$:/Qt/6.3.0/mingw_64/./bin/moc.exe C$:/Qt/6.3.0/mingw_64/./bin/uic.exe C$:/Qt/6.3.0/mingw_64/bin/Qt6Widgets.dll
+build CMakeFiles/FlappyBird_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/FlappyBird_autogen_timestamp_deps: phony C$:/Qt/6.3.0/mingw_64/bin/Qt6Core.dll C$:/Qt/6.3.0/mingw_64/./bin/uic.exe C$:/Qt/6.3.0/mingw_64/./bin/moc.exe C$:/Qt/6.3.0/mingw_64/bin/Qt6Widgets.dll
 
 
 #############################################

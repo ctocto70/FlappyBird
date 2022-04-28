@@ -260,6 +260,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/QtProjects/FlappyBird/bird.h",
+			"MU",
+			"EWIEGA46WW/moc_bird.cpp",
+			null
+		],
+		[
 			"C:/QtProjects/FlappyBird/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -343,6 +349,7 @@
 	"SETTINGS_FILE" : "C:/QtProjects/build-FlappyBird-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/FlappyBird_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/QtProjects/FlappyBird/bird.cpp", "MU", null ],
 		[ "C:/QtProjects/FlappyBird/main.cpp", "MU", null ],
 		[ "C:/QtProjects/FlappyBird/mainwindow.cpp", "MU", null ],
 		[ "C:/QtProjects/FlappyBird/tubes.cpp", "MU", null ]
