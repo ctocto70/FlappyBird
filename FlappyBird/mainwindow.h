@@ -4,9 +4,9 @@
 #include <QMainWindow>
 #include <QTimer>
 #include <QKeyEvent>
-#include "tubes.h"
+#include <QLCDNumber>
 #include "bird.h"
-
+#include "tubes.h" 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -25,13 +25,18 @@ private:
     const int window_width = 480; // "length"
     const int window_heigth = 600;
     const int speed = 25;
+    int score = 0;
     Tubes* tubes;
     Bird* bird;
     QTimer *timer;
+    QTimer *timer_fall;
     QImage* image;
     QRect* rect;
+    bool IsFalling;
 private slots:
     void slotTimerAlarm();
+    void slotTimerFall();
+
 protected:
     virtual void keyPressEvent(QKeyEvent *event);
 };
