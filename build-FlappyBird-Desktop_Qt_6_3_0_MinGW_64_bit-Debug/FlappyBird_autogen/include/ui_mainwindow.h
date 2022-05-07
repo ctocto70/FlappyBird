@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLCDNumber>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
@@ -22,6 +23,7 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
+    QLCDNumber *lcdNumber;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -32,9 +34,13 @@ public:
         MainWindow->resize(800, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
+        lcdNumber = new QLCDNumber(centralwidget);
+        lcdNumber->setObjectName(QString::fromUtf8("lcdNumber"));
+        lcdNumber->setGeometry(QRect(330, 60, 101, 51));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
+        menubar->setGeometry(QRect(0, 0, 800, 26));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));

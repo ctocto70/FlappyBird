@@ -138,7 +138,10 @@ C:/QtProjects/FlappyBird/mainwindow.h
  mdp:C:/Qt/6.3.0/mingw_64/include/QtGui/qvectornd.h
  mdp:C:/Qt/6.3.0/mingw_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.3.0/mingw_64/include/QtGui/qwindowdefs_win.h
+ mdp:C:/Qt/6.3.0/mingw_64/include/QtWidgets/QLCDNumber
  mdp:C:/Qt/6.3.0/mingw_64/include/QtWidgets/QMainWindow
+ mdp:C:/Qt/6.3.0/mingw_64/include/QtWidgets/qframe.h
+ mdp:C:/Qt/6.3.0/mingw_64/include/QtWidgets/qlcdnumber.h
  mdp:C:/Qt/6.3.0/mingw_64/include/QtWidgets/qmainwindow.h
  mdp:C:/Qt/6.3.0/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtabwidget.h
@@ -368,3 +371,5 @@ C:/QtProjects/FlappyBird/mainwindow.cpp
  uic:./ui_mainwindow.h
 C:/QtProjects/FlappyBird/bird.h
 C:/QtProjects/FlappyBird/bird.cpp
+C:/QtProjects/FlappyBird/tube.h
+C:/QtProjects/FlappyBird/tube.cpp

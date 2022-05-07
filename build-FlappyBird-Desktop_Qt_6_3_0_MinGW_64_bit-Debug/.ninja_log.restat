@@ -1,0 +1,13 @@
+# ninja log v5
+8	973	6736423813344574	build.ninja	350643e6174fa8be
+5	1403	6736423805172868	FlappyBird_autogen/timestamp	63fa2e2c767d85d
+5	1403	6736423805172868	FlappyBird_autogen/mocs_compilation.cpp	63fa2e2c767d85d
+2350	5329	6736391747658960	CMakeFiles/FlappyBird.dir/tubes.cpp.obj	b07b950253f9e77a
+5	1403	6736423805172868	C:/QtProjects/build-FlappyBird-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/FlappyBird_autogen/timestamp	63fa2e2c767d85d
+5	1403	6736423805172868	C:/QtProjects/build-FlappyBird-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/FlappyBird_autogen/mocs_compilation.cpp	63fa2e2c767d85d
+398	2469	6736406553964405	CMakeFiles/FlappyBird.dir/mainwindow.cpp.obj	e5167740cbcc9a79
+1521	3781	6736408609256652	CMakeFiles/FlappyBird.dir/FlappyBird_autogen/mocs_compilation.cpp.obj	a1f15b57ca400f17
+1563	3813	6736408609566730	CMakeFiles/FlappyBird.dir/main.cpp.obj	9365e8edb8f39554
+2469	2975	6736406558753730	FlappyBird.exe	1a5f3a3147d17f73
+2043	4055	6736398369535144	CMakeFiles/FlappyBird.dir/bird.cpp.obj	e909288da5d0e63e
+1817	3207	6736407362523452	CMakeFiles/FlappyBird.dir/tube.cpp.obj	dd0033817046b6d8

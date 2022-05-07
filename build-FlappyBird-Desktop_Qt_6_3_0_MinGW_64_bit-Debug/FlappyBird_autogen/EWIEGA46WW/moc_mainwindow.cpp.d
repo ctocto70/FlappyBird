@@ -134,7 +134,10 @@ C:/QtProjects/build-FlappyBird-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/FlappyBird_au
   C:/Qt/6.3.0/mingw_64/include/QtGui/qvectornd.h \
   C:/Qt/6.3.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.3.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.3.0/mingw_64/include/QtWidgets/QLCDNumber \
   C:/Qt/6.3.0/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.3.0/mingw_64/include/QtWidgets/qframe.h \
+  C:/Qt/6.3.0/mingw_64/include/QtWidgets/qlcdnumber.h \
   C:/Qt/6.3.0/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.3.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.3.0/mingw_64/include/QtWidgets/qtabwidget.h \
