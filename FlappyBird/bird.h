@@ -2,6 +2,7 @@
 #define BIRD_H
 
 #include <QPainter>
+#include <vector>
 
 class Bird
 {
@@ -16,7 +17,11 @@ public:
     const int max_speed = 10;
     const int gravity = 1;
     int speed = 0;
-    QImage* image;
+    QImage* image_bird;
+    std::vector<QImage*> flying_bird;
+    const int number_of_pictures = 4;
+    int picture_number = 0;
+    bool IsDump = false;
     void update();
 public:
     void jump();
@@ -27,6 +32,7 @@ public:
     int getLeft();
     int getRight();
     int getWidth();
+    void Dump();
     QRect* getRect();
 };
 

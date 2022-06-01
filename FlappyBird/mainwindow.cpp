@@ -77,21 +77,25 @@ void MainWindow::slotTimerAlarm() {
         if(bird->getRect()->intersects(*i->getTopTube())) {
             timer->stop();
             IsFalling = true;
+            bird->Dump();
             timer_fall->start(speed);
         }
         if(bird->getRect()->intersects(*i->getDownTube())) {
             timer->stop();
             IsFalling = true;
+            bird->Dump();
             timer_fall->start(speed);
         }
         if(i->getLeft() - bird->getLeft() < bird->getWidth() &&  bird->getLeft() < i->getRight() && bird->getTop() < 0) {
             timer->stop();
             IsFalling = true;
+            bird->Dump();
             timer_fall->start(speed);
         }
         if(bird->getBottom() >= window_heigth) {
             timer->stop();
             IsFalling = true;
+            bird->Dump();
         }
     }
 }

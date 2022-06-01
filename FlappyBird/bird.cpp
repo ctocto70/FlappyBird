@@ -2,7 +2,16 @@
 
 Bird::Bird()
 {
-    image = new QImage("C:\\QtProjects\\FlappyBird\\Bird.png", "PNG");
+    image_bird = new QImage("C:\\QtProjects\\FlappyBird\\Bird.png", "PNG");
+    QImage* img;
+    img = new QImage("C:\\QtProjects\\FlappyBird\\Bird1.png", "PNG");
+    flying_bird.push_back(img);
+    img = new QImage("C:\\QtProjects\\FlappyBird\\Bird2.png", "PNG");
+    flying_bird.push_back(img);
+    img = new QImage("C:\\QtProjects\\FlappyBird\\Bird3.png", "PNG");
+    flying_bird.push_back(img);
+    img = new QImage("C:\\QtProjects\\FlappyBird\\Bird4.png", "PNG");
+    flying_bird.push_back(img);
     rect = new QRect(x, y, width, heigth);
 }
 void Bird::jump() {
@@ -12,6 +21,8 @@ void Bird::jump() {
 void Bird::update() {
     rect->translate(0, -speed);
     speed -= gravity;
+    picture_number += 1;
+    picture_number %= number_of_pictures;
 }
 
 void Bird::paint_(QPainter* painter) {
@@ -19,7 +30,11 @@ void Bird::paint_(QPainter* painter) {
     painter->setBrush(Qt::green);
     painter->setBrush(Qt::green);
     painter->setPen(Qt::green);
-    painter->drawImage(*rect, *image);
+    if(!IsDump)  {
+        painter->drawImage(*rect, *flying_bird[picture_number]);
+    } else {
+        painter->drawImage(*rect, *image_bird);
+    }
 }
 
 void Bird::paint_fall_(QPainter* painter) {
@@ -27,7 +42,10 @@ void Bird::paint_fall_(QPainter* painter) {
 }
 
 Bird::~Bird() {
-    delete image;
+    delete image_bird;
+    for(auto i : flying_bird) {
+        delete i;
+    }
     delete rect;
 }
 
@@ -53,4 +71,8 @@ int Bird::getWidth() {
 
 int Bird::getTop() {
     return rect->top();
+}
+
+void Bird::Dump() {
+    IsDump = true;
 }
